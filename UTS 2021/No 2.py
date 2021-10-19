@@ -20,6 +20,7 @@ while True:
                 print("Yeayyy...benar!!! Score Anda =" + str(score) + " (Lives :" + str(lives) + ")")
             else:
                 lives -= 1
+                score -= 2
                 print()
                 print("Yahhh...salah!!! Score Anda =" + str(score) + " (Lives :" + str(lives) + ")")
         else:
@@ -37,6 +38,7 @@ while True:
                 print("Yeayyy...benar!!! Score Anda =" + str(score) + " (Lives :" + str(lives) + ")")
             else:
                 lives -= 1
+                score -= 2
                 print()
                 print("Yahhh...salah!!! Score Anda =" + str(score) + " (Lives :" + str(lives) + ")")
         else:
@@ -54,6 +56,7 @@ while True:
                 print("Yeayyy...benar!!! Score Anda =" + str(score) + " (Lives :" + str(lives) + ")")
             else:
                 lives -= 1
+                score -= 2
                 print()
                 print("Yahhh...salah!!! Score Anda =" + str(score) + " (Lives :" + str(lives) + ")")
         else:
@@ -61,6 +64,6 @@ while True:
             break
     elif int(level) == 4:
         break
-    elif int(level) >= 5:
+    else:
         print('Maaf pilihan anda salah')
         break
