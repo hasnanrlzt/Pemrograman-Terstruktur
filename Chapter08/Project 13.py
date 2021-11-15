@@ -10,10 +10,10 @@ def nilaiTinggi(nilaiMhs):
         uas = n.get('uas')
         mid = n.get('mid')
         nilaiakhir = (mid + 2*uas)/3
-        if(nilaiakhir>a):
+        if(nilaiakhir>x):
             x = nilaiakhir
             y['nama'] = n.get('nama')
             y['nim'] = n.get('nim')
-    print('Nilai tertinggi diraih oleh  ', b['nama'] ,'dengan NIM', b['nim'])
+    print('Nilai tertinggi diraih oleh',y['nama'] ,'dengan NIM', y['nim'])
 nilaiTinggi(nilaiMhs)
 
